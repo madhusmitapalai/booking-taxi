@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.client{
+    width: 100%;
+    height: 100%;
+    padding: 3rem .4rem;
+    background: linear-gradient(to bottom ,rgba(0,0,0,.6) ,rgba(0,0,0,.7)),url(../images/client-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.client h3{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: normal;
+}
+.client h1{
+    font-size: 4.5rem;
+    font-weight: 600;
+    margin: 1.7rem 0;
+    color: #fff;
+}
+.client .cards{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    display: flex !important;
+    padding: 4rem .8rem;
+    margin-top: .7rem;
+    justify-content: space-between;
+}
+
+.client .cards img{
+    width: 7rem;
+height: 7rem;
+    border-radius:50%;
+   
+}
+.client .cards .text p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #fff;
+    padding: 2rem;
+}
+.client .cards .text h3{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: yellow!important;
+}
+
+button{
+    font-size: 2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    outline: none;
+    text-align: center;
+    background-color: transparent;
+    color: yellow;
+    margin: 2rem 0;
+    border:none;
+}
+.client a{
+    border-bottom: 1px solid yellow;
+   
+}
+@media (max-width:120px) and (max-width:500px) {
+    .client .cards .text p{
+        font-size: 1.4rem;
+      
+        padding: 1rem;
+    }
+    .client .cards .text h3{
+        font-size: 2.3rem;
+     
+    }
+}

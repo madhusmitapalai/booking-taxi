@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/*wish-dive*/
+.wish-div{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to right ,rgba(0,0,0,.6),rgba(0,0,0,.6)), url(../images/page1-town.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.wish-div h4{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.wish-div h1{
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 1rem auto;
+}
+.wish-div p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.wish-div .card{
+    border: none;
+    background-color: transparent;
+   
+}
+.wish-div .card a{
+    background-color: yellow;
+    padding: 1.6rem;
+    border-radius: 50%;
+text-decoration: none;
+color: rgb(10, 10, 10);
+font-size: 2rem;
+
+}
+.wish-div .card h3{
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+.wish-div .card p{
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding: 2rem;
+    margin-left: 5rem;
+}
